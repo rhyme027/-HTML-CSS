@@ -1,0 +1,89 @@
+
+.ui-test__wrap{
+	background-color: #eee;
+	border:1px solid #999;
+	width: 1200px;
+	margin:20px auto 100px;
+	height: 500px;
+}
+.ui-test__name{
+	margin-top: -100px;
+    margin-left: 120px;
+}
+.ui-test__arctile{
+	padding: 20px;
+}
+.ui-test__left img{
+	padding: 20px;
+    display: block;
+}
+.ui-test__right img{
+	padding-left: 20px;
+    padding-top: 20px;
+    display: block;
+}
+.ui-test__left{
+    width: 200px;
+    height: 120px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+}
+.ui-test__right{
+	width: 120px;
+    height: 420px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.ui-test__middle{
+    border: 1px solid #999;
+    background-color: #fff;
+    width: 800px;
+}
+/**********************************************/
+/*position 布局*/
+.ui-test__wrap{
+	position: relative;
+}
+.ui-test__left{
+    position: absolute;
+}
+.ui-test__right{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 1060px;
+}
+.ui-test__middle{
+    position: absolute;
+    margin: 20px auto;
+    margin-left: 240px;
+}
+
+/***********************************************************/
+/*float布局*/
+/*.ui-test__right{
+    margin-top: -140px;
+    margin-right: 20px;
+    float: right;
+}
+.ui-test__middle{
+    margin-top:-142px;
+    margin-left:240px; 
+}*/
+
+/******************************************************/
+/*flex布局*/
+/*.ui-test__wrap{
+	display: flex;
+}
+.ui-test__left{
+ 	
+}
+.ui-test__right{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.ui-test__middle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}*/
